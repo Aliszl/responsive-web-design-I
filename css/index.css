@@ -175,6 +175,7 @@ header {
 
 .navBar{
     display:flex;
+    justify-content: space-between;
 }
 
 a {
@@ -202,16 +203,9 @@ a {
 
 }
 
-  
   .top {
         display:flex;
-    
         justify-content:center;
-	/* display: flex;
-	flex-direction: row;
-	justify-content: space-between; */
-
-
     }
 
 .top {
@@ -297,7 +291,7 @@ footer{
     margin:20px 0;
 }
 footer .copyright:nth-child(2){
-    /* align-items: center; */
+   
     justify-content:center;
 }
 .copyright{
@@ -310,9 +304,7 @@ footer .copyright:nth-child(2){
   
     .top {
           justify-content:center;
-      /* display: flex;
-      flex-direction: row;
-      justify-content: space-between; */
+      
           }
       .round-img{
               display:none;
@@ -324,6 +316,13 @@ footer .copyright:nth-child(2){
               align-items:center;
               
           }
+          .logo{
+            padding-bottom: 30px;
+        }
+        .navBar{
+            width:100%;
+            justify-content: space-between;
+        }
       
       }
 @media(max-width:500px){
@@ -337,16 +336,17 @@ footer .copyright:nth-child(2){
     .navBar{
         display:flex;
         flex-direction:column;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        /* justify-content:space-between; */
+        padding-top: 10px;
+        padding-bottom: 0px;
+        border-bottom: 1px solid grey;
+        
     }
     .logo{
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
     .navBar a{
         border-top: 1px solid grey;
-        padding: 20px 0;
+        padding: 20px 90px;
     }
     .round-img{
         display:none;
