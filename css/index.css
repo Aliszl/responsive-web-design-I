@@ -170,6 +170,7 @@ header {
     display:flex;
     align-items:center;
     justify-content:space-between;
+    padding-bottom: 30px;
 }
 
 .navBar{
@@ -204,7 +205,7 @@ a {
   
   .top {
         display:flex;
-        border: 1px solid red;
+    
         justify-content:center;
 	/* display: flex;
 	flex-direction: row;
@@ -214,15 +215,16 @@ a {
     }
 
 .top {
-	border: 1px solid red;
+	
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+    justify-content: space-between;
+   
 }
 
 .leftTop {
 	box-sizing: auto;
-	border: 1px solid blue;
+	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -232,7 +234,6 @@ a {
 
 .iod {
 	width: 300px;
-	border: 1px solid yellow;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -247,7 +248,6 @@ a {
 	font-size: 50px;
 	position: center;
 }
-
 .demand {
 	font-size: 50px;
 }
@@ -260,7 +260,7 @@ a {
 }
 
 .button:hover {
-	background: red;
+	background:blue;
 	color: white;
 }
 
@@ -279,8 +279,7 @@ a {
 
 
 .middle-img {
-	border: 1px solid red;
-
+    padding: 20px 0;
 }
 
 .bottom {
@@ -290,7 +289,6 @@ a {
 
 .contact {
 	box-sizing: 60px;
-	border: 1px solid pink;
 }
 
 footer{
@@ -302,16 +300,15 @@ footer .copyright:nth-child(2){
     /* align-items: center; */
     justify-content:center;
 }
-/* copyright{
-    
-    align: end;
+.copyright{
 
-} */
+    padding-left: 35%;
+
+}
 
 @media(max-width:700px){
   
     .top {
-          border: 1px solid red;
           justify-content:center;
       /* display: flex;
       flex-direction: row;
@@ -340,8 +337,12 @@ footer .copyright:nth-child(2){
     .navBar{
         display:flex;
         flex-direction:column;
-        padding: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         /* justify-content:space-between; */
+    }
+    .logo{
+        padding-bottom: 30px;
     }
     .navBar a{
         border-top: 1px solid grey;
