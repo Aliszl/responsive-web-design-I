@@ -85,12 +85,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -105,45 +105,45 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+    display: block;
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
 
 ol,
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+    quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1,
@@ -151,9 +151,9 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
 /* Your code starts here! */
@@ -167,95 +167,97 @@ h5 {
 
 header {
 
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-bottom: 30px;
 }
 
-.navBar{
-    display:flex;
+.navBar {
+    display: flex;
     justify-content: space-between;
 }
 
 a {
-	text-decoration: none;
-	color: grey;
-	margin: 0 20px;
+    text-decoration: none;
+    color: grey;
+    margin: 0 20px;
 }
 
 .button {
-	/* background-color: #COLOR; */
-	border: 1px solid black;
-	padding: 10px 20px;
+    /* background-color: #COLOR; */
+    border: 1px solid black;
+    padding: 10px 20px;
 }
 
 .container {
 
-	margin: 0 auto;
-	max-width: 800px;
-	padding: 16px;
-	border-left-color: 1px solid grey;
-	border-right-color: 1px solid grey;
-}
-.middle-img{
-    width:100%;
-
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 16px;
+    border-left-color: 1px solid grey;
+    border-right-color: 1px solid grey;
 }
 
-  .top {
-        display:flex;
-        justify-content:center;
-    }
+.middle-img {
+    width: 100%;
+
+}
 
 .top {
-	
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-   
+
 }
 
 .leftTop {
-	box-sizing: auto;
-	
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    box-sizing: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .iod {
-	width: 300px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .innovation {
-	font-size: 50px;
+    font-size: 50px;
 }
 
 .on {
-	font-size: 50px;
-	position: center;
+    font-size: 50px;
+    position: center;
 }
+
 .demand {
-	font-size: 50px;
+    font-size: 50px;
 }
 
 
 .button {
-	border: 1px solid grey;
-	margin: 40px;
+    border: 1px solid grey;
+    margin: 40px;
 
 }
 
 .button:hover {
-	background:blue;
-	color: white;
+    background: blue;
+    color: white;
 }
 
 /* .rightTop {
@@ -267,8 +269,8 @@ a {
 } */
 
 .middleContent {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -277,102 +279,118 @@ a {
 }
 
 .bottom {
-	display: flex;
+    display: flex;
 }
 
 
 .contact {
-	box-sizing: 60px;
+    box-sizing: 60px;
 }
 
-footer{
-    display:flex;
+footer {
+    display: flex;
     flex-direction: column;
-    margin:20px 0;
+    margin: 20px 0;
 }
-footer .copyright:nth-child(2){
-   
-    justify-content:center;
+
+footer .copyright:nth-child(2) {
+
+    justify-content: center;
 }
-.copyright{
+
+.copyright {
 
     padding-left: 35%;
 
 }
 
-@media(max-width:700px){
-  
+@media(max-width:700px) {
+
     .top {
-          justify-content:center;
-      
-          }
-      .round-img{
-              display:none;
-          }
-      header {
-  
-              display:flex;
-              flex-direction: column-reverse;
-              align-items:center;
-              
-          }
-          .logo{
-            padding-bottom: 30px;
-        }
-        .navBar{
-            width:100%;
-            justify-content: space-between;
-        }
-      
-      }
-@media(max-width:500px){
+        justify-content: center;
+
+    }
+
+    .round-img {
+        display: none;
+    }
+
     header {
 
-        display:flex;
+        display: flex;
         flex-direction: column-reverse;
-        align-items:center; 
+        align-items: center;
+
     }
-    
-    .navBar{
-        display:flex;
-        flex-direction:column;
+
+    .logo {
+        padding-bottom: 30px;
+    }
+
+    .navBar {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+}
+
+@media(max-width:500px) {
+    header {
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
         padding-top: 10px;
         padding-bottom: 0px;
         border-bottom: 1px solid grey;
-        text-align:center;
+        text-align: center;
     }
-    .logo{
+
+    .logo {
         padding-bottom: 10px;
     }
-    .navBar a{
+
+    .navBar a {
         border-top: 1px solid grey;
         padding: 20px 90px;
     }
-    .round-img{
-        display:none;
+
+    .round-img {
+        display: none;
     }
-    .middleContent{
+
+    .middleContent {
         display: flex;
         flex-direction: column;
         padding-top: 20px;
-	
+
     }
-    .bottom{
+
+    .bottom {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-	    
+
     }
-    .about{
+
+    .about {
         padding-top: 20px;
     }
-    .services{
+
+    .services {
         padding-top: 20px;
     }
-    .product{
+
+    .product {
         padding-top: 20px;
     }
-    .vision{
+
+    .vision {
         padding-top: 20px;
     }
 }
