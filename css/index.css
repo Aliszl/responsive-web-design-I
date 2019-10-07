@@ -185,7 +185,7 @@ a {
 }
 
 .button {
-	background-color: #COLOR;
+	/* background-color: #COLOR; */
 	border: 1px solid black;
 	padding: 10px 20px;
 }
@@ -339,7 +339,7 @@ footer .copyright:nth-child(2){
         padding-top: 10px;
         padding-bottom: 0px;
         border-bottom: 1px solid grey;
-        
+        text-align:center;
     }
     .logo{
         padding-bottom: 10px;
